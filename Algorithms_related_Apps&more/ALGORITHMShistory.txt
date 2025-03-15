@@ -1,0 +1,506 @@
+    1  sudo wsl -d Ubuntu-22.04
+    2  clear
+    3  exit
+    4  sudo su
+    5  clear
+    6  wsl –shutdown
+    7  clear
+    8  whoami
+    9  hostname
+   10  clear
+   11  sudo nano /etc/wsl.conf
+   12  clear
+   13  sudo wsl --shutdown
+   14  wsl –shutdown
+   15  sudo killall -r '.*'
+   16  sudo nano /etc/wsl.conf
+   17  explorer.exe .
+   18  clear
+   19  ls
+   20  ls -a
+   21  clear
+   22  history > 1234_climantonio_0a.txt
+   23  ls
+   24  cat 1234_climantonio_0a.txt
+   25  history -a > 1234_climantonio_0a.txt
+   26  cat 1234_climantonio_0a.txt
+   27  sudo shutdown -r now
+   28  cal 1969
+   29  apt install ncal
+   30  sudo apt install ncal
+   31  cal 1969
+   32  apt-cache search source | grep gcc
+   33  ca
+   34  bash
+   35  clear
+   36  systat
+   37  sysstat
+   38  sudo apt install sysstat
+   39  sysstat
+   40  sudo systemctl start sysstat
+   41  sudo systemctl start
+   42  sudo systemctl start systat
+   43  sudo systemctl start sysstat
+   44  sudo systemctl enable sysstat
+   45  sudo systemctl start sysstat
+   46  nano userlog.sh
+   47  chmod +x userlog.sh 
+   48  ./userlog.sh 
+   49  ls
+   50  cat userlog.txt
+   51  echo Level of shell is $SHLVL
+   52  echo Now we are in $PWD \n\n
+   53  cd $HOME/TXT
+   54  cd ..
+   55  Find ls
+   56  find ls
+   57  echo $OPTARG
+   58  ps -ef
+   59  ps -efL
+   60  pgrep -u stud sshd
+   61  pgrep -u clim sshd
+   62  pgrep -u root sshd
+   63  top
+   64  sar
+   65  sar -1 P
+   66  sar -q 5 2
+   67  sar -u 5 2
+   68  sar -u ALL 5 2
+   69  more /proc/info
+   70  more /proc/cpuinfo
+   71  sudo lshw
+   72  rpm -qf $(which lshw)
+   73  sudo apt install rpm
+   74  rpm -qf $(which lshw)
+   75  sudo apt install lshw
+   76  rpm -qf $(which lshw)
+   77  lscpu
+   78  time ./userlog.sh 
+   79  ls -a
+   80  time ./userlog.sh 
+   81  time ./userlog.sh  5
+   82  time ./userlog.sh -2
+   83  time ./userlog.sh -19
+   84  time ./userlog.sh nice --19
+   85  nano longloop.sh
+   86  chmode +x longloop.sh 
+   87  chmod +x longloop.sh 
+   88  ./longloop.sh 
+   89  time ./longloop.sh 2
+   90  nano longloop.sh
+   91  time ./longloop.sh 2
+   92  nano longloop.sh
+   93  nano longtime.sh
+   94  chmod +x longtime.sh 
+   95  time ./longtime.sh 
+   96  nano longtime.sh
+   97  time ./longtime.sh 
+   98  time ./longtime.sh 5
+   99  time ./longtime.sh 2
+  100  time ./longtime.sh nice --19
+  101  time ./longtime.sh nice -20
+  102  pmchart
+  103  sudo apt install pcp-ui
+  104  sudo apt install pcp-gui
+  105  pmchart
+  106  sudo pmchart
+  107  sudo pmchart &
+  108  time ./longtime.sh nice -20
+  109  top
+  110  htop
+  111  htop &
+  112  nano muchmemory.sh
+  113  chmod +x muchmemory.sh 
+  114  lscpu
+  115  sudo pmchart &
+  116  ./muchmemory.sh 
+  117  ./muchmemory.sh &
+  118  htop
+  119  nano muchswap.sh
+  120  chmod +x muchswap.sh 
+  121  ./muchswap.sh &
+  122  htop
+  123  ls
+  124  echo salut \n papa
+  125  echo "salut \n papa"
+  126  echo "salut '\n' papa"
+  127  echo salut \n papa \n
+  128  echo "salut '\n' papa \n"
+  129  echo "salut \n papa \n"
+  130  man man
+  131  explorer.exe .
+  132  man ls
+  133  man kernel
+  134  man motherinlow
+  135  touch badname
+  136  rm --badname
+  137  rm badname 
+  138  ls -w
+  139  touch -w
+  140  man man | tail -5
+  141  man ls | tail -5
+  142  man ls | grep SEE ALSO
+  143  man ls | grep 'SEE ALSO'
+  144  man ls | grep 'http*'
+  145  echo $name
+  146  echo $name`
+  147  del
+  148  q
+  149  exit
+  150  set
+  151  set`
+  152  pwd ; whoami
+  153  getconf ARG_MAX
+  154  -d fileChecks 
+  155  nano myscript
+  156  chmod 0777 myscript 
+  157  ./myscript 
+  158  nano myscript
+  159  ./myscript 
+  160  nano file
+  161  nano myscript
+  162  ./myscript 
+  163  rename ./file ./myfile
+  164  rename file myfile
+  165  nano myfile
+  166  ./myscript 
+  167  rm file
+  168  ls
+  169  nano myscript2
+  170  chmod 0777 myscript2
+  171  ./myscript2
+  172  pwd
+  173  nano myscript3
+  174  chmod 0777 myscript3
+  175  /myscript3
+  176  touch file
+  177  /myscript3
+  178  ./myscript3
+  179  nano while1
+  180  chmod 0777 while1 
+  181  ./while1 
+  182  nano nested1
+  183  chmod 0777 nested1 
+  184  ./nested1 
+  185  nano nestetcpassw
+  186  chmode 0777 nestetcpassw 
+  187  chmod 0777 nestetcpassw 
+  188  ./nestetcpassw 
+  189  nano 43break
+  190  chmod 0777 43break 
+  191  ./43break 
+  192  nano 43continue
+  193  chmod 0777 43continue 
+  194  ./43continue 
+  195  nano 43rediroutput
+  196  chmod 0777 43rediroutput 
+  197  ./43rediroutput 
+  198  cat 43myfile.txt 
+  199  nano 43findexecutable
+  200  chmod 0777 43findexecutable 
+  201  ./43findexecutable 
+  202  clear
+  203  explorer.exe .
+  204  ls -l nonexistentfile 2> errorlog
+  205  cat errorlog 
+  206  touch validfile
+  207  ls -l validfile nonexistentfile 1> outputlog 2> errorlog
+  208  cat outputlog 
+  209  date +%s
+  210  date +%d
+  211  find -mtime -100
+  212  find --help
+  213  find -mtime -1
+  214  find -mtime -10
+  215  find -name "*.txt" -mtime +365d 2009-09-01
+  216  find -name "*.txt" -mtime +31d 2009-09-01
+  217  find -name "*.txt" -mtime+31d 2009-09-01
+  218  find -name "*.txt" -mtime +30 2023-09-01
+  219  find / -name "*.txt" -mtime +30 2023-09-01
+  220  find -name "*.txt" -mtime +30 / 2023-09-01
+  221  find -name "*.txt" -mtime +365d 2023-09-01
+  222  find -name "*.txt" -mtime +365 2023-09-01
+  223  find /* -name "*.txt" -mtime +365 2023-09-01
+  224  find  -name "*.txt" /* -mtime +365 2023-09-01
+  225  find -r  -name /*/* "*.txt"  -mtime +365 2023-09-01
+  226  find -name /*/* "*.txt"  -mtime +365 2023-09-01
+  227  find -name /home/* "*.txt"  -mtime +365 2023-09-01
+  228  find -name /home "*.txt"  -mtime +365 2023-09-01
+  229  find -name /home/clim "*.txt"  -mtime +365 2023-09-01
+  230  find /etc -name "*.conf" -type f | wc -l
+  231  sudo find /etc -name "*.conf" -type f | wc -l
+  232  sudo locate *.conf | wc -l
+  233  sudo locate /etc *.conf | wc -l
+  234  sudo find /etc -name "*.conf" -type f
+  235  find . -type f -name "*.htm" -exec mv {} {}.html \;
+  236  grep -r 'x{3,}' /TXT |wc
+  237  grep -r 'x{3,}' ./TXT |wc
+  238  grep -r 'x{3,}' ./TXT 
+  239  grep -Er 'x{3,}' ./TXT 
+  240  grep 'x{3,}' ./TXT 
+  241  grep 'xxx' ./TXT 
+  242  grep -r 'x{3,}' ./TXT 
+  243  grep -r 'xxx' ./TXT 
+  244  grep -r 'xxx' ./TXT | wc -l
+  245  grep -r 'x{3,}' ./TXT | wc -l
+  246  grep 'x{3,}' ./TXT | wc -l
+  247  grep -rE 'x{3,}' ./TXT | wc -l
+  248  grep 'x{3,}' ./TXT | wc -l
+  249  grep -r 'x{3,}' ./TXT | wc -l
+  250  grep -r 'xxx' ./TXT | wc -l
+  251  grep 'xxx' ./TXT | wc -l
+  252  grep 'x{2,}' ./TXT | wc -l 
+  253  who | uniq | sort
+  254  grep bash | grep -v /bin/bash /etc/passwd
+  255  grep bash /etc/passwd
+  256  grep "bash /bin/bash" /etc/passwd
+  257  grep "/bin/bash" /etc/passwd | grep bash
+  258  grep -P '(?<!/bin/)bash' /etc/passwd
+  259  grep 'bash' /etc/passwd | grep -v '/bin/bash'
+  260  grep -P '^(?!.*\/bin\/bash).*bash' /etc/passwd
+  261  grep -P '^(?!.*\/bin\/bash).*bash' /etc/passwd > cat
+  262  grep -P '^(?!.*\/bin\/bash).*bash' /etc/passwd > explgrep
+  263  cat explgrep 
+  264  cut -d':' -f2- *.txt | grep message
+  265  ls
+  266  cut -d':' -f2- *.txt | grep seminar2
+  267  cut -d':' -f2- seminar2.txt | grep message
+  268  cd ./TXT
+  269  ls
+  270  cat __Grapes.txt 
+  271  sort __Grapes.txt | uniq > unique_Grapes.txt
+  272  ls
+  273  cat unique_Grapes.txt 
+  274  nano __Grapes.txt 
+  275  sort __Grapes.txt | uniq > unique_Grapes.txt
+  276  cat __Grapes.txt 
+  277  cat unique_Grapes.txt 
+  278  [ -f "__Grapes.txt" ] && [ -r "__Grapes.txt" ]
+  279  test -f "__Grapes.txt"  && test -r "__Grapes.txt" 
+  280  [ -f "myfile.txt" ] && [ -r "myfile.txt" ]
+  281  ls
+  282  echo [ -f "myfile.txt" ] && [ -r "myfile.txt" ] 
+  283  cat [ -f "myfile.txt" ] && [ -r "myfile.txt" ] 
+  284  [ -f "myfile.txt" ] && [ -r "myfile.txt" ] | tee
+  285  cd ..
+  286  ls
+  287  bash -x longloop.sh 
+  288  bash longloop.sh 
+  289  echo *
+  290  echo \*
+  291  echo $?
+  292  echo \*
+  293  echo *
+  294  echo $?
+  295  $?
+  296  find . -mtime -1 2>/dev/null
+  297  find . -mtime -1 
+  298  locate -mtime -1
+  299  locate --existing / | xargs stat --format '%Y :%y %n' | sort -nr | head -n 10
+  300  locate --existing / | xargs stat --format '%Y :%y %n' | sort -nr | head -n 10 2>/dev/null
+  301  locate --existing / | xargs stat --format '%Y :%y %n' 2>/dev/null | sort -nr | head -n 10 
+  302  updatedb
+  303  sudo updatedb
+  304  find -mtime -50
+  305  find /path/to/search -type f -newermt "2024-01-30"
+  306  find /* -type f -newermt "2024-01-30"
+  307  find /etc -type f -name "*.conf" | wc -l
+  308  sudo find /etc -type f -name "*.conf" | wc -l
+  309  sudo find /etc -name "*.conf" -type f | wc -l
+  310  sudo find -r /etc -type f -name "*.conf" | wc -l
+  311  sudo find /etc -type f -name "*.conf" | wc -l
+  312  sudo su
+  313  grep 'xxx' ./TXT | wc -l
+  314  find /etc -type f -name "*.conf"
+  315  find /etc -type f -name "*.conf" | wc -l
+  316  sudo find /etc -type f -name "*.conf" | wc -l
+  317  sudo find /etc -name "*.conf" | wc -l
+  318  sudo find /etc -name "*.conf" -type f | wc -l
+  319  find /etc -type f -name "*.conf" | wc -l
+  320  grep 'ia' list
+  321  grep 'ia' .
+  322  grep 'ia' ./
+  323  grep 'ia' ./TXT
+  324  ls
+  325  grep 'ia' longloop.sh 
+  326  grep -E 'i|a' longloop.sh 
+  327  grep -E 'i' longloop.sh 
+  328  grep -E 'a' longloop.sh 
+  329  ls
+  330  mkdir ./Sterge
+  331  cp -r ./TXT ./Sterge
+  332  cd ./Sterge/
+  333  ls
+  334  cd ./TXT/
+  335  ls
+  336  rename s/.txt/.bak/
+  337  ls
+  338  rename -n 's/$/txt/' list.txt
+  339  ls
+  340  rename -n 's/$/txt/' Animal.txt 
+  341  ls
+  342  rename -n 's/\.txt$/.html/' *.txt
+  343  cd ..
+  344  grep -r 'xxx' ./TXT | wc -l
+  345  grep -rE 'x{3,}' ./TXT | wc -l
+  346  cd /bin/bash
+  347  cd /bin
+  348  ls
+  349  cat ls
+  350  d ..
+  351  restart
+  352  reboot
+  353  if pwd; then   echo "It works"; fi
+  354  nano 3if
+  355  chmod +x 3if 
+  356  ./3if -x
+  357  ./3if
+  358  nano 3if
+  359  ./3if
+  360  cat /etc/passwd
+  361  file="/etc/passwd"
+  362  IFS=$'\n'
+  363  for var in $(cat $file); do   echo "$var"; done
+  364  file="/etc/passwd"
+  365  IFS=$'\n'
+  366  for var in $(cat $file); do   echo "$var"; done
+  367  file="/etc/passwd"
+  368  IFS=$'\n'
+  369  for var in $(cat $file); do   echo "$var"; done
+  370  nano 3forIFS
+  371  chmod +x 3forIFS 
+  372  ./3forIFS 
+  373  cat /etc/passwd
+  374  nano 3forIFS
+  375  ./3forIFS 
+  376  nano 3forIFS
+  377  ./3forIFS 
+  378  nano 3ex_allfiles.sh
+  379  chmod +x 3ex_allfiles.sh 
+  380  ./3ex_allfiles.sh 
+  381  #!/bin/bash
+  382  echo "Files in current directory and its subdirectories: "
+  383  find . -type f
+  384  ./3ex_allfiles.sh | wc -l
+  385  nano 3ex_fileEXdir.sh
+  386  chmod +x 3ex_fileEXdir.sh 
+  387  ./3ex_fileEXdir.sh 
+  388  ls
+  389  ./3ex_fileEXdir.sh 
+  390  nano 3ex_fileEXdir.sh
+  391  ./3ex_fileEXdir.sh 
+  392  ls | wc -l
+  393  ls
+  394  ping -c 5 google.com
+  395  ping -c 5 sop.ase.ro
+  396  du -sh /var/log/*
+  397  du -sh /var/log
+  398  sudo apt install libreoffice -y
+  399  nano ATP2a_1vectorwrite.sh
+  400  chmod +x ATP2a_1vectorwrite.sh 
+  401  ./ATP2a_1vectorwrite.sh 
+  402  ls 
+  403  cat ATP2a_1.txt 
+  404  ./ATP2a_1vectorwrite.sh 
+  405  cat ATP2a_1.txt 
+  406  nano ATP2a_2vector2mem.sh
+  407  chmod +x ATP2a_2vector2mem.sh
+  408  ./ATP2a_2vector2mem.sh
+  409  nano ATP2b_studgrades.sh
+  410  chmod +x ATP2b_studgrades.sh 
+  411  ./ATP2b_studgrades.sh
+  412  cat studgrades.csv 
+  413  ./ATP2b_studgrades.sh
+  414  cat studgrades.csv 
+  415  nano ATP2b_average.sh
+  416  chmod +x ATP2b_average.sh
+  417  ./ATP2b_average.sh
+  418  bc
+  419  sudo apt install bc -y
+  420  ./ATP2b_average.sh
+  421  nano ATP3b_studgrades.sh
+  422  chmod +x ATP3b_studgrades.sh
+  423  ./ATP3b_studgrades.sh
+  424  cat 3bgrades.csv 
+  425  nano ATP4a_hanoitowers.sh
+  426  chmod +x ATP4a_hanoitowers.sh
+  427  ./ATP4a_hanoitowers.sh
+  428  nano ATP5a_1shell_sort.sh
+  429  chmod +x ATP5a_1shell_sort.sh
+  430  ./ATP5a_1shell_sort.sh
+  431  nano ATP5a_1shell_sort.sh
+  432  ./ATP5a_1shell_sort.sh
+  433  time ./ATP5a_1shell_sort.sh
+  434  nano ATP5a_1shell_sort.sh
+  435  nano ATP5a_2merge_sort.sh
+  436  chmod +x ATP5a_2merge_sort.sh
+  437  ./ATP5a_2merge_sort.sh
+  438  nano ATP5a_2merge_sort.sh
+  439  ./ATP5a_2merge_sort.sh
+  440  nano ATP5a_3quick_sort.sh
+  441  chmod +x ATP5a_3quick_sort.sh
+  442  ./ATP5a_3quick_sort.sh
+  443  nano ATP5a_3quick_sort.sh
+  444  ./ATP5a_3quick_sort.sh
+  445  nano ATP5a_3quick_sort.sh
+  446  ./ATP5a_3quick_sort.sh
+  447  nano ATP5a_3quick_sort.sh
+  448  ./ATP5a_3quick_sort.sh
+  449  nano ATP6a_1knapsack.sh
+  450  chmod +x ATP6a_1knapsack.sh
+  451  ./ATP6a_1knapsack.sh
+  452  nano ATP6a_1knapsack.sh
+  453  ./ATP6a_1knapsack.sh
+  454  nano SO5a_3quick_sort.sh
+  455  chmod +x SO5a_3quick_sort.sh
+  456  ./SO5a_3quick_sort.sh
+  457  ./SO5a_4quick_sort.sh
+  458  nano SO5a_4quick_sort.sh
+  459  chmod +x SO5a_4quick_sort.sh
+  460  ./SO5a_4quick_sort.sh
+  461  sudo ./SO5a_4quick_sort.sh
+  462  nano SO5a_4quick_sort.sh
+  463  sudo ./SO5a_4quick_sort.sh
+  464  nano SO5a_4quick_sort.sh
+  465  sudo ./SO5a_4quick_sort.sh
+  466  nano SO5a_4quick_sort.sh
+  467  sudo ./SO5a_4quick_sort.sh
+  468  nano SO5a_4quick_sort.sh
+  469  cat /etc/passwd
+  470  explorer.exe .
+  471  nano problem10.c
+  472  gcc problem10.c -o problem10
+  473  sudo apt install gcc -y
+  474  gcc problem10.c -o problem10
+  475  ./problem10 
+  476  nano problem09.c
+  477  gcc problem09.c -o problem09
+  478  ./problem09
+  479  nano problem08.c
+  480  gcc problem08.c -o problem08
+  481  ./problem08
+  482  nano problem07.c
+  483  gcc problem07.c -o problem07
+  484  ./problem07
+  485  nano problem06.c
+  486  gcc problem06.c -o problem06
+  487  ./problem06
+  488  nano problem05.c
+  489  gcc problem05.c -o problem05
+  490  ./problem05
+  491  nano problem04.c
+  492  gcc problem04.c -o problem04
+  493  nano problem04.c
+  494  gcc problem04.c -o problem04
+  495  ./problem04
+  496  nano problem03.c
+  497  gcc problem03.c -o problem03
+  498  ./problem03
+  499  nano problem02.c
+  500  gcc problem02.c -o problem02
+  501  ./problem02
+  502  nano problem01.c
+  503  gcc problem01.c -o problem01
+  504  ./problem01
+  505  ls -a
+  506  history > ALGORITHMShistory.txt
